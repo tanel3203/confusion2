@@ -79,7 +79,7 @@
                     </ul>
 					
 				<div class="row">	
-					<div class="col-xs-9" ng-show="!commentForm.$pristine">
+					<div class="col-xs-9" ng-show="!commentForm.$pristine && commentForm.$valid">
 							<blockquote>
 								<h4>{{comment.rating}}</h4>
 								<p> {{comment.comment}} </p>
